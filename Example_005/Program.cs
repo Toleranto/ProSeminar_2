@@ -37,7 +37,7 @@ else
     Console.WriteLine("Некорректный ввод данных");
 
 Console.WriteLine("Введите число 2: ");
-string number2 = Console.ReadLine();
+string number2 = Console.ReadLine()!;
 int b;
 
 bool result2 = int.TryParse(number2, out b);
